@@ -2,8 +2,9 @@
 
 # Site Settings
 title: Server Khalilov | CV
-url: 'http://webjeda.com'
-baseurl: '/online-cv' #change it according to your repository name
+url: 'http://serverkhalilov.com'
+baseurl: '' #change it according to your repository name
+repository: 'red17electro/online-cv'
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: ceramic # blue turquoise green berry orange ceramic
 
