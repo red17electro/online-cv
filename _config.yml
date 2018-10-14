@@ -9,7 +9,7 @@ repository: 'red17electro/online-cv'
 theme_skin: ceramic # blue turquoise green berry orange ceramic
 
 # Tracker
-#analytics: UA-83979019-1
+analytics: UA-105703806-1
 
 # Sass/SCSS
 sass:
