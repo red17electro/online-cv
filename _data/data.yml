@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Server Khalilov
-    tagline: Software Engineer
+    tagline: Software Engineer 
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -49,12 +49,12 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am in the final stage of pursuing my MSc. degree in Computer Science, Software Engineering. Over the years I proved that I am a motivated and hardworking team-player, always aspiring to learn something new. As I am approaching the graduation, I am interested in getting into the industry and continuing my career in a company, which meets my interests - that would be applying all the knowledge I learned in the area of software engineering in the last couple of years. Personally, my interests have a slight bias towards the development of web applications.
+      I am a fresh graduate, having just completed my MSc. Degree in Computer Science, Software Engineering. Over the years I proved that I am a motivated and hardworking team-player, always aspiring to learn something new. I am interested in getting into the industry and continuing my career in a company, which meets my interests - that would be applying all the knowledge I learned in the area of software engineering in the last couple of years. Personally, my interests have a slight bias towards the development of web applications.
 
 education:
     - degree: MSc. in Computer Science, Software Engineering [Current GPA - 1.8/1.0]
       university: TU Kaiserslautern
-      time: 2016 - Present
+      time: 2016 - 2018
       details: |
           - Was awarded DAAD Stibet Scholarship. (2018)
           - Was awarded DeutschlandStipendium, sponsored by IBM. (2016, 2017)
@@ -70,31 +70,27 @@ education:
 
 experiences:
     - role: Web Developer, Research Assistant
-      time: Mar. 2018 - Present
+      time: Mar. 2018 - Dec. 2018
       company: University of Kaiserslautern, Kaiserslautern, Germany
       details: |
-          - Applying methods and techniques learned in the domain of web-development in order to complete the tasks, assigned by the supervisor.
-          - Learning the concept of conflict-free-replicated-data (CRDTs).
-          - Developing several applications, based on AntidoteDB (a planet-scale, highly available, transactional database).
-          - The applications I am working on, include a Calendar application, a CRDT-Visualiser, an AntidoteDB Website.
+          - Learned the concept of conflict-free-replicated-data (CRDTs).
+          - Developed several projects, based on AntidoteDB, which include a Calendar application, a CRDT-Visualiser, an AntidoteDB Website.
 
     - role: Web Developer, Tester
       time: May 2014 - May 2016
       company: Extensoft, Simferopol, Ukraine
       details: |
-          - Developed Themler project by adding new front-end functionality (hover box, parallax controls, etc.) and covered it with tests using Karma and Jasmine (automation- and unit-test ).
+          - Developed Themler project by adding new front-end functionality and covered it with tests using Karma and Jasmine.
           - Spearheaded the process of testing and tracking of successful tests’ passing that provides more efficient management.
-          - Developed a built-in Artisteer JavaScript - plugin for conversion Artisteer themes to Themler.com ones for such CMS as WordPress, Joomla and HTML Themler.
-          - Advanced teamwork and communication skills working in a team of 50 members and improved my knowledge of version control systems along the way (Git, SVN).
+          - Developed built-in Artisteer JavaScript - plugin for conversion Artisteer themes to Themler ones.
+          - Worked in a team of 50 members and improved my knowledge of version control systems (Git, SVN).
 
     - role: CRM Administrator, .Net Developer, Web Developer | Intern
       time: Aug. 2013 - Apr. 2014
       company: Softwarium, Simferopol, Ukraine
       details: |
-          - Worked in a team of developers, who created a custom portal, based on Microsoft CRM 2011, 2013 with an extended functionality due to plugins.
-          - Customized the default functionality of Microsoft CRM platforms by installing and modifying C#, JavaScript and Silverlight-plugins.
-          - Developed a Tic-Tac-Toe WF / WPF applications with a network game-mode and the support of storing players in a database.
-          - Gained an excellent feedback on completing the internship.
+          - Worked in a team of developers and created a portal based on Microsoft CRM 2011, 2013 with an extended functionality due to plugins.
+          - Developed a Tic-Tac-Toe WF / WPF applications with a network game-mode and a data base.
 
 projects:
     title: Projects
@@ -102,6 +98,10 @@ projects:
       Here you can find a list of projects, which I worked on. I will try to update it occasionally.
 
     assignments:
+      - title: Master Thesis
+        link: "https://github.com/AntidoteDB/WebCure"
+        tagline: "Developed WebCure, a framework for partial replication of data at client-side in web applications."
+
       - title: Restaurant Reviews project for Mobile Web Specialist Certification Course
         link: "https://github.com/red17electro/mws-restaurant"
         tagline: "A progressive web application implemented as a part of my study in a Udacity's Mobile Web Specialist NanoDegree."
@@ -161,4 +161,4 @@ skills:
         level: 98%
 
 footer: >
-    Kaiserslautern, Germany, 2018.
+    Kaiserslautern, Germany, 2019.
