@@ -49,7 +49,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am a fresh graduate, having just completed my MSc. Degree in Computer Science, Software Engineering. Over the years I proved that I am a motivated and hardworking team-player, always aspiring to learn something new. I am interested in getting into the industry and continuing my career in a company, which meets my interests - that would be applying all the knowledge I learned in the area of software engineering in the last couple of years. Personally, my interests have a slight bias towards the development of web applications.
+      I am a Software Engineer, who recently completed a MSc. Degree in Computer Science, Software Engineering. Over the years I proved that I am a motivated and hardworking team-player, always aspiring to develop myself professionally. Currently, I am working as a Web Developer at CARSYNC Gmbh., where I am looking to gain experience and improve my skills by putting into practice all the knowledge I gained at the university over the years. 
 
 education:
     - degree: MSc. in CS, Software Engineering [GPA - 1.6/1.0]
@@ -69,6 +69,14 @@ education:
           - Received an excellent grade for the B.Sc. thesis «Rocket movement in a free space transfer between two planets with coplanar Kepler orbits» .
 
 experiences:
+    - role: Software Engineer
+      time: May. 2019 - Present
+      company: VISPIRON CARSYNC GmbH, Munich, Germany
+      details: |
+          - Working on the front-end part of Carsync Project, based on Angular 7 and Material design (http://app.carsync.de). 
+          - Creating custom components, which are re-used in different parts of the product. 
+          - Refactoring the existing code, in order to provide clean components structure.
+
     - role: Web Developer, Research Assistant
       time: Mar. 2018 - Dec. 2018
       company: University of Kaiserslautern, Kaiserslautern, Germany
