@@ -157,7 +157,7 @@ skills:
         level: 40% 
         
       - name: Node.js, ExpressJS, Gulp.js
-        level: 60%
+        level: 50%
 
       - name: Testing (Cypress, Jasmine, Karma, Jenkins)
         level: 90%
@@ -167,9 +167,6 @@ skills:
 
       - name: Git, JIRA, TFS
         level: 100%
-        
-      - name: GitLab, Docker
-        level: 30%
 
 footer: >
     Munich, Germany, 2021.
