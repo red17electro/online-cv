@@ -146,27 +146,30 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-
-      - name: Software Engineering, Software Quality Assurance
-        level: 95%
     
-      - name: JavaScript, CSS, HTML, JSON, AJAX
+      - name: JavaScript, TypeScript, CSS, SASS, HTML, JSON, AJAX, jQuery, NX, REST
+        level: 95%
+        
+      - name: Angular
+        level: 80%
+        
+      - name: React
+        level: 40% 
+        
+      - name: Node.js, ExpressJS, Gulp.js
+        level: 60%
+
+      - name: Testing (Cypress, Jasmine, Karma, Jenkins)
         level: 90%
-
-      - name: jQuery, Node.js, ExpressJS, Gulp.js
-        level: 90%
-
-      - name: Java
-        level: 65%
-
-      - name: C#, C/C++
-        level: 40%
-      
-      - name: Jasmine, Karma, Jenkins, Docker
-        level: 65%
+        
+      - name: Java, C#, C/C++, Python
+        level: 50%
 
       - name: Git, JIRA, TFS
-        level: 98%
+        level: 100%
+        
+      - name: GitLab, Docker
+        level: 30%
 
 footer: >
-    Munich, Germany, 2019.
+    Munich, Germany, 2021.
