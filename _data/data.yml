@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Server Khalilov
     tagline: Software Engineer 
-    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: contact@serverkhalilov.com
