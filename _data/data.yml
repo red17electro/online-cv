@@ -69,13 +69,23 @@ education:
           - Received an excellent grade for the B.Sc. thesis «Rocket movement in a free space transfer between two planets with coplanar Kepler orbits» .
 
 experiences:
+    - role: Senior Software Engineer
+      time: July. 2022 - Present
+      company: Stryber
+      details: |
+          - To be filled :)
     - role: Software Engineer
-      time: May. 2019 - Present
+      time: May. 2019 - Jun. 2022
       company: VISPIRON CARSYNC GmbH, Munich, Germany
       details: |
-          - Working on the front-end part of Carsync Project, based on Angular 7 and Material design (http://app.carsync.de). 
-          - Creating custom components, which are re-used in different parts of the product. 
-          - Refactoring the existing code, in order to provide clean components structure.
+          - Working on front-end part of CARSYNC Eco portal (http://eco.carsync.de), based on NX framework, Angular 13 and IBM Carbon web components.
+          - Integrated the authentication of the CARSYNC Eco front-end with Auth0 solution.
+          - Implementing the business logic of CARSYNC One portal, based on Angular 7 and Material design (http://app.carsync.de).
+          - Introduced e2e testing approach within the front-end team.
+          - Conducting one-on-one technical interviews to evaluate Front-End Engineer applicants and behavioural team-fit interviews with candidates.  
+          - Creating the design based on mock-ups and implementing reusable Angular components.
+          - Structuring and refactoring the code in order to maintain scalability and reusability.
+          - Migrated the CARSYNC One Portal from Angular 7 to Angular 12.
 
     - role: Web Developer, Research Assistant
       time: Mar. 2018 - Dec. 2018
