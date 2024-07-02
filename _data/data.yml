@@ -1,5 +1,5 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output. 
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 sidebar:
@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Server Khalilov
-    tagline: Software Engineer 
+    tagline: Software Engineer
     avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -32,10 +32,10 @@ sidebar:
 
       - idiom: English
         level: Fluent
-      
+
       - idiom: German
         level: Basic
-        
+
     interests:
       - item: Books
         link:
@@ -70,10 +70,15 @@ education:
 
 experiences:
     - role: Senior Front-End Engineer
-      time: July. 2022 - Present
+      time: July. 2022 - Aug. 2024
       company: Stryber
       details: |
-          - To be filled :)
+          - Led the technical team (2FE, 2BE, QA & UI/UX) building Nayla Finance (https://www.naylafinance.com/) in Saudi Arabia.
+          - Implemented several front-end portals for different projects,utilizing the following technologies:React, React Query, Jotai, Redux, Saga, GoogleSSO.
+          - Implemented the integration with AWS Cognito both on a client-side and on a back-end side for different projects.
+          - Used AWS SDK to build a Nest.js BE that implements the user management functionality of AWS UserPools.
+          - Built a payment module with Stripe, based on AWS DynamoDB, Queues, and Lambda functions, and deployed it via Serverless & GitHub Actions.
+          - Managed 2 direct reports, actively participating in the hiring process for internal & external resources, onboarding them.
     - role: Software Engineer
       time: May. 2019 - Jun. 2022
       company: VISPIRON CARSYNC GmbH, Munich, Germany
@@ -156,22 +161,22 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-    
+
       - name: JavaScript, TypeScript, CSS, SASS, HTML, JSON, AJAX, jQuery, NX, REST
         level: 95%
-        
+
       - name: Angular
         level: 80%
-        
+
       - name: React
-        level: 40% 
-        
+        level: 40%
+
       - name: Node.js, ExpressJS, Gulp.js
         level: 50%
 
       - name: Testing (Cypress, Jasmine, Karma, Jenkins)
         level: 90%
-        
+
       - name: Java, C#, C/C++, Python
         level: 50%
 
