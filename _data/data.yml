@@ -72,50 +72,50 @@ experiences:
     title: Experiences
     info:
         - role: Senior Front-End Engineer
-      time: July. 2022 - Aug. 2024
-      company: Stryber
-      details: |
-          - Led the technical team (2FE, 2BE, QA & UI/UX) building Nayla Finance (https://www.naylafinance.com/) in Saudi Arabia.
-          - Implemented several front-end portals for different projects,utilizing the following technologies:React, React Query, Jotai, Redux, Saga, GoogleSSO.
-          - Implemented the integration with AWS Cognito both on a client-side and on a back-end side for different projects.
-          - Used AWS SDK to build a Nest.js BE that implements the user management functionality of AWS UserPools.
-          - Built a payment module with Stripe, based on AWS DynamoDB, Queues, and Lambda functions, and deployed it via Serverless & GitHub Actions.
-          - Managed 2 direct reports, actively participating in the hiring process for internal & external resources, onboarding them.
-    - role: Software Engineer
-      time: May. 2019 - Jun. 2022
-      company: VISPIRON CARSYNC GmbH, Munich, Germany
-      details: |
-          - Working on front-end part of CARSYNC Eco portal (http://eco.carsync.de), based on NX framework, Angular 13 and IBM Carbon web components.
-          - Integrated the authentication of the CARSYNC Eco front-end with Auth0 solution.
-          - Implementing the business logic of CARSYNC One portal, based on Angular 7 and Material design (http://app.carsync.de).
-          - Introduced e2e testing approach within the front-end team.
-          - Conducting one-on-one technical interviews to evaluate Front-End Engineer applicants and behavioural team-fit interviews with candidates.  
-          - Creating the design based on mock-ups and implementing reusable Angular components.
-          - Structuring and refactoring the code in order to maintain scalability and reusability.
-          - Migrated the CARSYNC One Portal from Angular 7 to Angular 12.
+          time: July. 2022 - Aug. 2024
+          company: Stryber
+          details: |
+              - Led the technical team (2FE, 2BE, QA & UI/UX) building Nayla Finance (https://www.naylafinance.com/) in Saudi Arabia.
+              - Implemented several front-end portals for different projects,utilizing the following technologies:React, React Query, Jotai, Redux, Saga, GoogleSSO.
+              - Implemented the integration with AWS Cognito both on a client-side and on a back-end side for different projects.
+              - Used AWS SDK to build a Nest.js BE that implements the user management functionality of AWS UserPools.
+              - Built a payment module with Stripe, based on AWS DynamoDB, Queues, and Lambda functions, and deployed it via Serverless & GitHub Actions.
+              - Managed 2 direct reports, actively participating in the hiring process for internal & external resources, onboarding them.
+        - role: Software Engineer
+          time: May. 2019 - Jun. 2022
+          company: VISPIRON CARSYNC GmbH, Munich, Germany
+          details: |
+              - Working on front-end part of CARSYNC Eco portal (http://eco.carsync.de), based on NX framework, Angular 13 and IBM Carbon web components.
+              - Integrated the authentication of the CARSYNC Eco front-end with Auth0 solution.
+              - Implementing the business logic of CARSYNC One portal, based on Angular 7 and Material design (http://app.carsync.de).
+              - Introduced e2e testing approach within the front-end team.
+              - Conducting one-on-one technical interviews to evaluate Front-End Engineer applicants and behavioural team-fit interviews with candidates.
+              - Creating the design based on mock-ups and implementing reusable Angular components.
+              - Structuring and refactoring the code in order to maintain scalability and reusability.
+              - Migrated the CARSYNC One Portal from Angular 7 to Angular 12.
 
-    - role: Web Developer, Research Assistant
-      time: Mar. 2018 - Dec. 2018
-      company: University of Kaiserslautern, Kaiserslautern, Germany
-      details: |
-          - Learned the concept of conflict-free-replicated-data (CRDTs).
-          - Developed several projects, based on AntidoteDB, which include a Calendar application, a CRDT-Visualiser, an AntidoteDB Website.
+        - role: Web Developer, Research Assistant
+          time: Mar. 2018 - Dec. 2018
+          company: University of Kaiserslautern, Kaiserslautern, Germany
+          details: |
+              - Learned the concept of conflict-free-replicated-data (CRDTs).
+              - Developed several projects, based on AntidoteDB, which include a Calendar application, a CRDT-Visualiser, an AntidoteDB Website.
 
-    - role: Web Developer, Tester
-      time: May 2014 - May 2016
-      company: Extensoft, Simferopol, Ukraine
-      details: |
-          - Developed Themler project by adding new front-end functionality and covered it with tests using Karma and Jasmine.
-          - Spearheaded the process of testing and tracking of successful tests’ passing that provides more efficient management.
-          - Developed built-in Artisteer JavaScript - plugin for conversion Artisteer themes to Themler ones.
-          - Worked in a team of 50 members and improved my knowledge of version control systems (Git, SVN).
+        - role: Web Developer, Tester
+          time: May 2014 - May 2016
+          company: Extensoft, Simferopol, Ukraine
+          details: |
+              - Developed Themler project by adding new front-end functionality and covered it with tests using Karma and Jasmine.
+              - Spearheaded the process of testing and tracking of successful tests' passing that provides more efficient management.
+              - Developed built-in Artisteer JavaScript - plugin for conversion Artisteer themes to Themler ones.
+              - Worked in a team of 50 members and improved my knowledge of version control systems (Git, SVN).
 
-    - role: CRM Administrator, .Net Developer, Web Developer | Intern
-      time: Aug. 2013 - Apr. 2014
-      company: Softwarium, Simferopol, Ukraine
-      details: |
-          - Worked in a team of developers and created a portal based on Microsoft CRM 2011, 2013 with an extended functionality due to plugins.
-          - Developed a Tic-Tac-Toe WF / WPF applications with a network game-mode and a data base.
+        - role: CRM Administrator, .Net Developer, Web Developer | Intern
+          time: Aug. 2013 - Apr. 2014
+          company: Softwarium, Simferopol, Ukraine
+          details: |
+              - Worked in a team of developers and created a portal based on Microsoft CRM 2011, 2013 with an extended functionality due to plugins.
+              - Developed a Tic-Tac-Toe WF / WPF applications with a network game-mode and a data base.
 
 projects:
     title: Projects
