@@ -169,31 +169,50 @@ projects:
 #        authors: Edgar T. Irons
 #        conference: "Comm. ACM 4 (1961), 51–55"
 
+certifications:
+    title: Certifications
+    list:
+      - name: Google Project Management Certificate
+        start: 2022
+        end: 2022
+        organization: Google
+        credentialid:
+        credentialurl:
+        credentialname:
+        details: |
+          Hands-on program covering traditional and Agile project management throughout the entire project lifecycle, including initiating, planning, executing, and closing projects.
+
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
 
-      - name: JavaScript, TypeScript, CSS, SASS, HTML, JSON, AJAX, jQuery, NX, REST
+      - name: JavaScript & TypeScript
         level: 95%
 
-      - name: Angular
-        level: 80%
-
-      - name: React
-        level: 40%
-
-      - name: Node.js, ExpressJS, Gulp.js
-        level: 50%
-
-      - name: Testing (Cypress, Jasmine, Karma, Jenkins)
+      - name: Angular & D3.js
         level: 90%
 
-      - name: Java, C#, C/C++, Python
-        level: 50%
+      - name: React & React Query
+        level: 75%
 
-      - name: Git, JIRA, TFS
-        level: 100%
+      - name: HTML, CSS, SASS
+        level: 95%
+
+      - name: Node.js, Nest.js, Express.js
+        level: 80%
+
+      - name: Testing (Playwright, Cypress, Jasmine, Karma)
+        level: 90%
+
+      - name: AWS (Lambda, DynamoDB, Cognito, S3)
+        level: 75%
+
+      - name: Docker & CI/CD (GitHub Actions, Jenkins)
+        level: 80%
+
+      - name: Git, JIRA, Agile Methodologies
+        level: 90%
 
 footer: >
     Munich, Germany, 2026.

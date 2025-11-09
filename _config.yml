@@ -2,7 +2,7 @@
 
 # Site Settings
 title: Server Khalilov | CV
-url: 'http://serverkhalilov.com'
+url: 'https://serverkhalilov.com'
 baseurl: '' #change it according to your repository name
 repository: 'red17electro/online-cv'
 description: A beautiful Jekyll theme for creating resume
@@ -11,7 +11,8 @@ theme_skin: ceramic # blue turquoise green berry orange ceramic teal oceanstale
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 # Tracker
-analytics: UA-105703806-1
+# TODO: Migrate to Google Analytics 4 - Get your GA4 measurement ID from https://analytics.google.com/
+analytics: G-M4Z3LLFBHD
 
 # Sass/SCSS
 sass:

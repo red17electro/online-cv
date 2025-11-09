@@ -9,6 +9,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Skip to content link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: $theme-color;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  z-index: 100;
+  &:focus {
+    top: 0;
+  }
+}
+
 h1,
 h2,
 h3,

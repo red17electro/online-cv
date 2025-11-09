@@ -2,27 +2,28 @@
 #Add "layout: compress" here to compress the html code
 ---
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="en"> <!--<![endif]-->
+<html lang="en">
 {% include head.html %}
 
 <body>
-  <button onclick="print()" class="print-button d-print-none">
-    <i class="fas fa-file-pdf"></i>Print
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <button onclick="print()" class="print-button d-print-none" aria-label="Print this page">
+    <i class="fas fa-file-pdf" aria-hidden="true"></i>Print
   </button>
 
-  <button onclick="generatePDF()" class="pdf-button d-print-none" id="pdfButton">
-    <i class="fas fa-file-pdf"></i>PDF
+  <button onclick="generatePDF()" class="pdf-button d-print-none" id="pdfButton" aria-label="Download as PDF">
+    <i class="fas fa-file-pdf" aria-hidden="true"></i>PDF
   </button>
 
   <div class="wrapper">
-    {% include sidebar.html %}
+    <aside role="complementary" aria-label="Sidebar">
+      {% include sidebar.html %}
+    </aside>
 
-    <div class="main-wrapper">
+    <main role="main" id="main-content" class="main-wrapper">
       {{ content }}
-    </div>
+    </main>
   </div>
 
   {% include footer.html %}
