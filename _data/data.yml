@@ -69,6 +69,7 @@ education:
           - Received an excellent grade for the B.Sc. thesis «Rocket movement in a free space transfer between two planets with coplanar Kepler orbits» .
 
 experiences:
+    title: Experiences
     - role: Senior Front-End Engineer
       time: July. 2022 - Aug. 2024
       company: Stryber
