@@ -71,6 +71,16 @@ education:
 experiences:
     title: Experiences
     info:
+        - role: Senior Software Engineer
+          time: Sep. 2024 - Present
+          company: Celonis, Munich, Germany
+          details: |
+              - Build reusable, accessible chart components using Angular, D3 and TypeScript.
+              - Contribute to and maintain our internal chart library.
+              - Optimize chart performance, accessibility, and styling across products.
+              - Work closely with product managers and designers to translate data requirements into usable, data-driven visual features.
+              - Deliver thorough test coverage for new components: unit, integration, Cypress component tests, and end-to-end Playwright suites.
+              - Mentor and help onboard new hires.
         - role: Senior Front-End Engineer
           time: July. 2022 - Aug. 2024
           company: Stryber GmbH
@@ -186,4 +196,4 @@ skills:
         level: 100%
 
 footer: >
-    Munich, Germany, 2024.
+    Munich, Germany, 2026.
