@@ -3,151 +3,187 @@
 #
 
 sidebar:
-    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Server Khalilov
-    tagline: Software Engineer
-    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Server Khalilov
+  tagline: Senior Software Engineer
+  avatar: profile.jpeg # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: contact@serverkhalilov.com
-    phone: +49 (177) 17-37-247
-    #website: blog.webjeda.com #do not add http://
-    linkedin: serverkhalilov
-    github: red17electro
-    gitlab:
-    bitbucket:
-    #twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
+  # Sidebar links
+  email: contact@serverkhalilov.com
+  phone: +49 (177) 17-37-247
+  timezone: Europe/Berlin # Enter your timezone, e.g., America/Havana, Africa/Casablanca, Europe/Berlin
+  citizenship:
+  website: # Include the full website URL, including "http://" or "https://".
+  linkedin: serverkhalilov
+  xing:
+  github: red17electro
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  bluesky: # Specify your full Bluesky handle
+  twitter: # '@yourhandle'
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  mastodon: # Please include your full Mastodon link here.
+  hackerrank: # Please provide your HackerRank username.
+  leetcode: # Please provide your LeetCode username.
+  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
-    languages:
-      - idiom: Russian
-        level: Native
+  languages:
+    title: Languages
+    info:
+    - idiom: Russian
+      level: Native
 
-      - idiom: Ukrainian
-        level: Native
+    - idiom: Ukrainian
+      level: Native
 
-      - idiom: English
-        level: Fluent
+    - idiom: English
+      level: Fluent
 
-      - idiom: German
-        level: Basic
+    - idiom: German
+      level: B1
 
-    interests:
-      - item: Books
-        link:
+    - idiom: Crimean Tatar
+      level: Basic
 
-      - item: Technology
-        link:
+  interests:
+    title: Interests
+    info:
+    - item: Books
+      link:
 
-      - item: Football
-        link:
+    - item: Technology
+      link:
+
+    - item: Football
+      link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Server Khalilov is a Senior Software Engineer at Celonis Labs, where he works on data visualization and front-end engineering. He holds a BSc in Applied Mathematics from Tavrida National University of Crimea and an MSc in Computer Science from the University of Kaiserslautern, specializing in Software Engineering. Server is a motivated, detail-oriented, and collaborative professional, passionate about building elegant, performant solutions and continuously improving his technical and leadership skills. He previously worked at Stryber GmbH as a Senior Front-End Engineer and has also completed the Google Project Management Career Certificate, a hands-on program focused on traditional and Agile project management throughout the entire project life cycle.
+  title: Career Profile
+  summary: |
+    Senior Software Engineer at Celonis Labs specializing in data visualization and front-end engineering.
+    Holds an MSc in Computer Science from TU Kaiserslautern (Software Engineering) and a BSc in Applied
+    Mathematics from Taurida National University. Passionate about building elegant, performant, and
+    accessible solutions with expertise in Angular, D3.js, TypeScript, and modern front-end architectures.
+
+    Proven track record of leading technical teams, implementing scalable applications, and mentoring
+    junior engineers. Completed Google Project Management Certificate, bringing both technical excellence
+    and project management skills to deliver high-quality software solutions.
 
 education:
-    - degree: MSc. in CS, Software Engineering [GPA - 1.6/1.0]
-      university: TU Kaiserslautern
-      time: 2016 - 2018
-      details: |
-          - Was awarded DAAD Stibet Scholarship. (2018)
-          - Was awarded DeutschlandStipendium, sponsored by IBM. (2016, 2017)
-          - Completed with the highest score (1.0) a compiler construction project from MiniJava to MIPS.
-          - Completed a team-based software development project in the domain of augmented reality under the direction of John Deere.
+  title: Education
+  info:
+  - degree: MSc in Computer Science, Software Engineering
+    university: TU Kaiserslautern
+    time: 2016 - 2018
+    details: |
+      Grade: 1.6/1.0 (German system)
+        - Awarded DAAD Stibet Scholarship (2018)
+        - Awarded DeutschlandStipendium, sponsored by IBM (2016, 2017)
+        - Completed compiler construction project from MiniJava to MIPS with highest score (1.0)
+        - Team-based software development project in augmented reality with John Deere
 
-    - degree: Honors B.Sc. in Applied Mathematics [GPA - 5.0/5.0]
-      university: Taurida V. I. Vernadskiy National University
-      time: 2010 - 2014
-      details: |
-          - Was awarded a government-subsidized improved scholarship for achieving high grades for the entire period of study.
-          - Received an excellent grade for the B.Sc. thesis «Rocket movement in a free space transfer between two planets with coplanar Kepler orbits» .
+  - degree: BSc in Applied Mathematics (Honors)
+    university: Taurida V. I. Vernadskiy National University
+    time: 2010 - 2014
+    details: |
+      Grade: 5.0/5.0 (Perfect GPA)
+        - Awarded government-subsidized scholarship for achieving high grades throughout study period
+        - Received excellent grade for thesis: "Rocket movement in free space transfer between two planets with coplanar Kepler orbits"
 
 experiences:
-    title: Experiences
-    info:
-        - role: Senior Software Engineer
-          time: Sep. 2024 - Present
-          company: Celonis, Munich, Germany
-          details: |
-              - Build reusable, accessible chart components using Angular, D3 and TypeScript.
-              - Contribute to and maintain our internal chart library.
-              - Optimize chart performance, accessibility, and styling across products.
-              - Work closely with product managers and designers to translate data requirements into usable, data-driven visual features.
-              - Deliver thorough test coverage for new components: unit, integration, Cypress component tests, and end-to-end Playwright suites.
-              - Mentor and help onboard new hires.
-        - role: Senior Front-End Engineer
-          time: July. 2022 - Aug. 2024
-          company: Stryber GmbH
-          details: |
-              - Led the technical team (2FE, 2BE, QA & UI/UX) building Nayla Finance (https://www.naylafinance.com/) in Saudi Arabia.
-              - Implemented several front-end portals for different projects,utilizing the following technologies:React, React Query, Jotai, Redux, Saga, GoogleSSO.
-              - Implemented the integration with AWS Cognito both on a client-side and on a back-end side for different projects.
-              - Used AWS SDK to build a Nest.js BE that implements the user management functionality of AWS UserPools.
-              - Built a payment module with Stripe, based on AWS DynamoDB, Queues, and Lambda functions, and deployed it via Serverless & GitHub Actions.
-              - Managed 2 direct reports, actively participating in the hiring process for internal & external resources, onboarding them.
-        - role: Software Engineer
-          time: May. 2019 - Jun. 2022
-          company: VISPIRON CARSYNC GmbH, Munich, Germany
-          details: |
-              - Working on front-end part of CARSYNC Eco portal (http://eco.carsync.de), based on NX framework, Angular 13 and IBM Carbon web components.
-              - Integrated the authentication of the CARSYNC Eco front-end with Auth0 solution.
-              - Implementing the business logic of CARSYNC One portal, based on Angular 7 and Material design (http://app.carsync.de).
-              - Introduced e2e testing approach within the front-end team.
-              - Conducting one-on-one technical interviews to evaluate Front-End Engineer applicants and behavioural team-fit interviews with candidates.
-              - Creating the design based on mock-ups and implementing reusable Angular components.
-              - Structuring and refactoring the code in order to maintain scalability and reusability.
-              - Migrated the CARSYNC One Portal from Angular 7 to Angular 12.
+  title: Experiences
+  info:
+  - role: Senior Software Engineer
+    time: Sep 2024 - Present
+    company: Celonis, Munich, Germany
+    details: |
+      We are Celonis. We help companies reveal and fix inefficiencies they can’t see, enabling them to perform at levels they never thought possible 🪄
+        - Build reusable, accessible chart components using Angular, D3.js, and TypeScript
+        - Contribute to and maintain internal chart library serving multiple product teams
+        - Optimize chart performance, accessibility (WCAG), and styling across products
+        - Collaborate with product managers and designers to translate data requirements into data-driven visual features
+        - Deliver comprehensive test coverage: unit, integration, Cypress component tests, and end-to-end Playwright suites
+        - Mentor and onboard new team members
 
-        - role: Web Developer, Research Assistant
-          time: Mar. 2018 - Dec. 2018
-          company: University of Kaiserslautern, Kaiserslautern, Germany
-          details: |
-              - Learned the concept of conflict-free-replicated-data (CRDTs).
-              - Developed several projects, based on AntidoteDB, which include a Calendar application, a CRDT-Visualiser, an AntidoteDB Website.
+  - role: Senior Front-End Engineer
+    time: Jul 2022 - Aug 2024
+    company: Stryber GmbH, Munich, Germany
+    details: |
+      We create growth for established businesses. Stryber is a professional services firm at the intersection of strategy and execution. We solve the complex challenges preventing mature companies achieving breakthrough growth.
+        - Led technical team (2 FE, 2 BE, QA, UI/UX) building Nayla Finance platform in Saudi Arabia
+        - Implemented front-end portals using React, React Query, Jotai, Redux, Saga, and Google SSO
+        - Integrated AWS Cognito authentication on both client and backend sides across multiple projects
+        - Built Nest.js backend implementing AWS UserPools user management functionality
+        - Developed payment module with Stripe, AWS DynamoDB, SQS, Lambda, deployed via Serverless & GitHub Actions
+        - Managed 2 direct reports, participated in hiring and onboarding processes
 
-        - role: Web Developer, Tester
-          time: May 2014 - May 2016
-          company: Extensoft, Simferopol, Ukraine
-          details: |
-              - Developed Themler project by adding new front-end functionality and covered it with tests using Karma and Jasmine.
-              - Spearheaded the process of testing and tracking of successful tests' passing that provides more efficient management.
-              - Developed built-in Artisteer JavaScript - plugin for conversion Artisteer themes to Themler ones.
-              - Worked in a team of 50 members and improved my knowledge of version control systems (Git, SVN).
+  - role: Software Engineer
+    time: May 2019 - Jun 2022
+    company: VISPIRON CARSYNC GmbH, Munich, Germany
+    details: |
+      No more Excel chaos, isolated solutions, or inefficient processes: with CARSYNC’s modular platform of software, services, and hardware, you can manage your fleet transparently, in full legal compliance, and with noticeably less effort — for a fleet that really picks up speed.
+        - Built CARSYNC Eco portal using NX monorepo, Angular 13, and IBM Carbon web components
+        - Integrated Auth0 authentication solution for CARSYNC Eco frontend
+        - Implemented business logic for CARSYNC One portal using Angular 7 and Material Design
+        - Introduced end-to-end testing approach within the front-end team
+        - Conducted technical interviews for Front-End Engineer candidates and team-fit assessments
+        - Designed and implemented reusable Angular components based on UI mockups
+        - Migrated CARSYNC One Portal from Angular 7 to Angular 12
 
-        - role: CRM Administrator, .Net Developer, Web Developer | Intern
-          time: Aug. 2013 - Apr. 2014
-          company: Softwarium, Simferopol, Ukraine
-          details: |
-              - Worked in a team of developers and created a portal based on Microsoft CRM 2011, 2013 with an extended functionality due to plugins.
-              - Developed a Tic-Tac-Toe WF / WPF applications with a network game-mode and a data base.
+  - role: Web Developer, Research Assistant
+    time: Mar 2018 - Dec 2018
+    company: University of Kaiserslautern, Kaiserslautern, Germany
+    details: |
+      Research position focused on distributed systems and conflict-free replicated data types (CRDTs).
+        - Studied and implemented conflict-free replicated data types (CRDTs)
+        - Developed multiple projects using AntidoteDB: Calendar application, CRDT Visualizer, and AntidoteDB website
+        - Contributed to distributed systems research in academic environment
+
+  - role: Web Developer, Tester
+    time: May 2014 - May 2016
+    company: Extensoft, Simferopol, Ukraine
+    details: |
+      Full-stack development and quality assurance for web development tools.
+        - Developed Themler project features and implemented comprehensive test coverage using Karma and Jasmine
+        - Established testing and tracking processes for improved test management efficiency
+        - Built Artisteer JavaScript plugin for converting Artisteer themes to Themler format
+        - Collaborated in team of 50 members, enhanced version control knowledge (Git, SVN)
+
+  - role: .NET Developer, Web Developer (Intern)
+    time: Aug 2013 - Apr 2014
+    company: Softwarium, Simferopol, Ukraine
+    details: |
+      Internship focused on Microsoft CRM development and .NET application development.
+        - Developed portal based on Microsoft CRM 2011/2013 with extended functionality via plugins
+        - Built Tic-Tac-Toe WF/WPF applications with network multiplayer mode and database integration
 
 projects:
-    title: Projects
-    intro: >
-      Here you can find a list of projects, which I worked on. I will try to update it occasionally.
+  title: Projects
+  intro: >
+    Selected academic and personal projects demonstrating expertise in distributed systems, compiler design,
+    progressive web applications, and augmented reality.
+  assignments:
+  - title: WebCure - Master Thesis
+    link: "https://github.com/AntidoteDB/WebCure"
+    tagline: "Framework for partial replication of data at client-side in web applications using CRDTs and AntidoteDB."
 
-    assignments:
-      - title: Master Thesis
-        link: "https://github.com/AntidoteDB/WebCure"
-        tagline: "Developed WebCure, a framework for partial replication of data at client-side in web applications."
+  - title: Restaurant Reviews PWA
+    link: "https://github.com/red17electro/mws-restaurant"
+    tagline: "Progressive web application built for Udacity's Mobile Web Specialist Nanodegree with offline-first capabilities."
 
-      - title: Restaurant Reviews project for Mobile Web Specialist Certification Course
-        link: "https://github.com/red17electro/mws-restaurant"
-        tagline: "A progressive web application implemented as a part of my study in a Udacity's Mobile Web Specialist NanoDegree."
+  - title: MiniJava to MIPS Compiler
+    link: "https://softech.cs.rptu.de/lehre/ss17/clp"
+    tagline: "Full compiler implementation from MiniJava to MIPS assembly, developed in Java with highest grade (1.0)."
 
-      - title: Compiler's construction from MiniJava to MIPS
-        link: "https://softech.informatik.uni-kl.de/homepage/de/teaching/SS17/clp/"
-        tagline: "A compiler for MiniJava -> MIPS, which was implemented in Java."
-
-      - title: Team-based Software Development iOS Augmented Reality Application made in cooperation with John Deere, Intelligent Solutions Group.
-        link: ""
-        #tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+  - title: iOS Augmented Reality App
+    tagline: "Team-based AR application development project in collaboration with John Deere Intelligent Solutions Group."
 
 #publications:
 #    title: Publications
@@ -170,49 +206,50 @@ projects:
 #        conference: "Comm. ACM 4 (1961), 51–55"
 
 certifications:
-    title: Certifications
-    list:
-      - name: Google Project Management Certificate
-        start: 2022
-        end: 2022
-        organization: Google
-        credentialid:
-        credentialurl:
-        credentialname:
-        details: |
-          Hands-on program covering traditional and Agile project management throughout the entire project lifecycle, including initiating, planning, executing, and closing projects.
+  title: Certifications
+  list:
+  - name: Google Project Management Certificate
+    start: 2022
+    organization: Google
+    credentialurl: credly.com/badges/70332577-5713-442c-8de8-2fbd34da337f
+    credentialname: Google Project Management Certificate
+    details: |
+      Hands-on program covering traditional and Agile project management throughout the entire
+      project lifecycle, including initiating, planning, executing, and closing projects.
+
+      Gained expertise in project planning, risk management, stakeholder communication, and both
+      Waterfall and Agile methodologies.
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
+  toolset:
+  - name: JavaScript & TypeScript
+    level: 95%
 
-      - name: JavaScript & TypeScript
-        level: 95%
+  - name: Angular & D3.js
+    level: 90%
 
-      - name: Angular & D3.js
-        level: 90%
+  - name: React & React Query
+    level: 75%
 
-      - name: React & React Query
-        level: 75%
+  - name: HTML, CSS, SASS
+    level: 95%
 
-      - name: HTML, CSS, SASS
-        level: 95%
+  - name: Node.js, Nest.js, Express.js
+    level: 80%
 
-      - name: Node.js, Nest.js, Express.js
-        level: 80%
+  - name: Testing (Playwright, Cypress, Jasmine, Karma)
+    level: 90%
 
-      - name: Testing (Playwright, Cypress, Jasmine, Karma)
-        level: 90%
+  - name: AWS (Lambda, DynamoDB, Cognito, S3)
+    level: 75%
 
-      - name: AWS (Lambda, DynamoDB, Cognito, S3)
-        level: 75%
+  - name: Docker & CI/CD (GitHub Actions, Jenkins)
+    level: 80%
 
-      - name: Docker & CI/CD (GitHub Actions, Jenkins)
-        level: 80%
-
-      - name: Git, JIRA, Agile Methodologies
-        level: 90%
+  - name: Git, JIRA, Agile Methodologies
+    level: 90%
 
 footer: >
     Munich, Germany, 2026.
