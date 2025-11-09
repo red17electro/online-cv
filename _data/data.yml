@@ -251,5 +251,8 @@ skills:
   - name: Git, JIRA, Agile Methodologies
     level: 90%
 
+  - name: AI Coding Assistants (Cursor, Claude Code, Copilot)
+    level: 90%
+
 footer: >
     Munich, Germany, 2026.
