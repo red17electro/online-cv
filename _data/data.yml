@@ -70,7 +70,8 @@ education:
 
 experiences:
     title: Experiences
-    - role: Senior Front-End Engineer
+    info:
+        - role: Senior Front-End Engineer
       time: July. 2022 - Aug. 2024
       company: Stryber
       details: |
