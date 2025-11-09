@@ -5,8 +5,10 @@ title: Server Khalilov | CV
 url: 'http://serverkhalilov.com'
 baseurl: '' #change it according to your repository name
 repository: 'red17electro/online-cv'
+description: A beautiful Jekyll theme for creating resume
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: ceramic # blue turquoise green berry orange ceramic
+theme_skin: ceramic # blue turquoise green berry orange ceramic teal oceanstale
+chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 # Tracker
 analytics: UA-105703806-1
@@ -17,6 +19,7 @@ sass:
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Build settings
+compress-site: yes
 encoding: "utf-8"
 compress_html: # - http://jch.penibelst.de/
   clippings: all
