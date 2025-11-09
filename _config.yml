@@ -11,7 +11,7 @@ theme_skin: ceramic # blue turquoise green berry orange ceramic teal oceanstale
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 # Tracker
-# TODO: Migrate to Google Analytics 4 - Get your GA4 measurement ID from https://analytics.google.com/
+# Google Analytics 4 - Measurement ID
 analytics: G-M4Z3LLFBHD
 
 # Sass/SCSS
