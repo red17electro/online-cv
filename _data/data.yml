@@ -49,7 +49,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Server Khalilov is a professional Software Engineer working at Stryber GmbH. Server is holding a BSc. Degree in Applied Mathematics from Tavrida National University of Crimea with majors in Mathematics, and a MSc. Degree in Computer Science from University of Kaiserslautern with majors in Software Engineering. Server is a motivated and a hardworking team-player, always aspiring to develop professionally. Recently, Server completed the Google Project Management Career Certificate - a rigorous, hands-on program that covers traditional and Agile project management approaches throughout the life cycle of a project.
+      Server Khalilov is a Senior Software Engineer at Celonis Labs, where he works on data visualization and front-end engineering. He holds a BSc in Applied Mathematics from Tavrida National University of Crimea and an MSc in Computer Science from the University of Kaiserslautern, specializing in Software Engineering. Server is a motivated, detail-oriented, and collaborative professional, passionate about building elegant, performant solutions and continuously improving his technical and leadership skills. He previously worked at Stryber GmbH as a Senior Front-End Engineer and has also completed the Google Project Management Career Certificate, a hands-on program focused on traditional and Agile project management throughout the entire project life cycle.
 
 education:
     - degree: MSc. in CS, Software Engineering [GPA - 1.6/1.0]
@@ -73,7 +73,7 @@ experiences:
     info:
         - role: Senior Front-End Engineer
           time: July. 2022 - Aug. 2024
-          company: Stryber
+          company: Stryber GmbH
           details: |
               - Led the technical team (2FE, 2BE, QA & UI/UX) building Nayla Finance (https://www.naylafinance.com/) in Saudi Arabia.
               - Implemented several front-end portals for different projects,utilizing the following technologies:React, React Query, Jotai, Redux, Saga, GoogleSSO.
